@@ -1,0 +1,5 @@
+rump#true#25.89#2
+ribeye#false#32.00#5#20/11/20
+ribeye#true#46.50#2
+rump#true#37.80#2
+rump#false#32.00#5#13/06/21
