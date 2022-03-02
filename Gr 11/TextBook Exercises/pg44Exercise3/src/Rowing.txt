@@ -1,0 +1,15 @@
+15#Cox,Jamie#Doubles#1
+16#Crew,Britt#Quad#1
+15#Row,Harder#Quad#4
+14#Botes,Vini#Scull#1
+14#Wheels,Fast#Quad#3
+15#Cantstand,Boats#Pair#2
+0#Whiner,Winnie#Quad#4
+0#Despise,Ergos#Eight#7
+16#Hard,Worker#Double#2
+0#Must,Win#Quad#5
+14#Howzit,Dooing#Scull#1
+15#Water,Mark#Quad#2
+0#Happy,Oarswoman#Quad#1
+16#Rather,Sail#Oct#6
+16#Sternly,Bow#Quad#3
