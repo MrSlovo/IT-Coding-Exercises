@@ -30,5 +30,5 @@ nbbuild/
 test/
 dist/
 nbdist/
-nbactions.xml
-nb-configuration.xml
+*.xml
+*.mf
