@@ -11,4 +11,13 @@ public class BookingDay {
     this.lake = lake;
   }
 
+  public String getOverBooked() {
+    String overBookedVenues = "";
+    int maxGarden = 130;
+    int maxLake = 260;
+    overBookedVenues += garden.getGuests() > maxGarden ? "Garden is overbooked by " + (garden.getGuests() - maxGarden) + "guests\n" : "";
+    overBookedVenues += lake.getGuests() > maxLake ? "Lake is overbooked by " + (lake.getGuests() - maxLake) + "guests\n" : "";
+    return overBookedVenues;
+  }
+
 }
