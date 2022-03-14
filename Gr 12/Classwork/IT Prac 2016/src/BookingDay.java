@@ -20,4 +20,18 @@ public class BookingDay {
     return overBookedVenues;
   }
 
+  public String toString() {
+    String rString = bookingDay;
+    if (garden != null) {
+      rString = rString + "\nGarden : " + garden.toString();
+    }
+    if (lake != null) {
+      rString = rString + "\nLake : " + lake.toString();
+    }
+    if (garden == null && lake == null) {
+      rString = rString + "\nNo weddings booked";
+    }
+    return rString + "\n" + getOverBooked();
+  }
 }
+
