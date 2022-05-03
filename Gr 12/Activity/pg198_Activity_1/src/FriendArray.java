@@ -19,7 +19,7 @@ public class FriendArray {
         size++;
       }
     } catch (Exception e) {
-      System.out.println(e);
+      System.out.println("Error in FrienArray.java: " + e);
     }
   }
   

@@ -15,8 +15,8 @@ public class VenueManager {
 
         Scanner scLine = new Scanner(line).useDelimiter("#");
         weddings[i] = new Wedding(scLine.next(),
-          scLine.next(), scLine.next(), scLine.next(),
-          scLine.nextInt());
+            scLine.next(), scLine.next(), scLine.next(),
+            scLine.nextInt());
 
       }
       scFile.close();
@@ -36,8 +36,7 @@ public class VenueManager {
   public Wedding getWeddingsOnDay(String day, String venue) {
     Wedding wed = null;
     for (int i = 0; i < weddings.length; i++) {
-      if (weddings[i].equals(day,
-        venue)) {
+      if (weddings[i].equals(day, venue)) {
         wed = weddings[i];
       }
     }
