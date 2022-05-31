@@ -1,0 +1,36 @@
+M1_1#Service to school
+M1_2#Improvement >10% per subject
+M1_3#Badge award or trophy
+M1_4#LRC representative
+M1_5#Involved in sporting event
+M1_6#Good work ethic
+M2_1#Top achiever
+M2_2#Captain of committee or sport
+M2_3#Junior Honours
+M3_1#Half colours
+M3_2#LRC – executive
+M3_3#Prefect
+M4_1#Full Colours
+M4_2#Colours Blazer
+M5_1#Honours Blazer
+M5_2#National award
+D1_1#Late for class (3 times)
+D1_2#Late for school
+D1_3#Uniform offence
+D1_4#Punishment not done
+D1_5#Homework not done
+D1_6#Littering
+D2_1#Misbehaviour
+D2_2#Non-participation
+D2_3#Leave school without permission
+D3_1#Dishonesty
+D3_2#Disobedience
+D3_3#Bunking
+D3_4#Vandalism
+D3_5#Threatening behaviour
+D4_1#Cheek or deviance towards staff
+D4_2#Possession of inappropriate material
+D4_3#Smoking
+D5_1#Violent behaviour
+D5_2#Theft
+D5_3#Cheating
