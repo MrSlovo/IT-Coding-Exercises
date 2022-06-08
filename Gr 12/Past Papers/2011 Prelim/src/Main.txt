@@ -1,0 +1,22 @@
+public class Main {
+public static void main(String[] args) {
+	char choice='X';
+	do{
+		choice = JOptionPane.showInputDialog
+		("Choose from the following:\n" +
+		"A: Display all votes \n" +
+		"B: Display spoilt votes statistics\n" +
+		"C: Sort the list\n" +
+		"X: Exit")
+		.toUpperCase().charAt(0);
+		switch(choice)
+		{
+		case 'A': break;
+		case 'B': break;
+		case 'C': break;
+		case 'X': break;
+		default : JOptionPane.showMessageDialog(null, "Invalid choice");
+		}
+	}while(choice!='X');
+}
+}
