@@ -28,6 +28,28 @@ public class Votes {
     return voteShare;
   }
 
+  public int getWardID() {
+    return wardID;
+  }
+
+  public String getDistrictID() {
+    return districtID;
+  }
+
+  public int getTotal() {
+    return total;
+  }
+
+  public int getResultA() {
+    return resultA;
+  }
+
+  public int getResultB() {
+    return resultB;
+  }
+  
+  
+
   @Override
   public String toString() {
     return "wardID: " + wardID + "\tdistrictID: " + districtID + "\ttotal: " + total + "\tresultA: " + resultA + "\tresultB: " + resultB;
