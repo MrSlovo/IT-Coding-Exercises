@@ -5,14 +5,21 @@ public class SpoiltVotes extends Votes {
     super(wardID, districtID, total, resultA, resultB);
     this.spoilt = spoilt;
   }
-  
-  public calcSpoiltA() {
-    
+
+  public int calcSpoiltA() {
+    int percentage = Math.round((super.getResultA() - spoilt) / super.getTotal() * 100);
+    return percentage;
+  }
+
+  public int calcSpoiltB() {
+    int percentage = Math.round((super.getResultB() - spoilt) / super.getTotal() * 100);
+    return percentage;
   }
 
   @Override
   public String toString() {
-    return "wardID: " + getWardID() + "\tdistrictID: " + getDistrictID() + "\ttotal: " + getTotal() + "\tresultA: " + getResultA() + "\tresultB: " + getResultB() + "\tspoilt: " + spoilt;
+    return "wardID: " + getWardID() + "\tdistrictID: " + getDistrictID() + "\ttotal: " + getTotal() + "\tresultA: "
+        + getResultA() + "\tresultB: " + getResultB() + "\tspoilt: " + spoilt;
   }
-  
+
 }

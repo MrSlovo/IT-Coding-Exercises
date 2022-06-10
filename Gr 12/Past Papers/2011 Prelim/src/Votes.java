@@ -48,8 +48,6 @@ public class Votes {
     return resultB;
   }
   
-  
-
   @Override
   public String toString() {
     return "wardID: " + wardID + "\tdistrictID: " + districtID + "\ttotal: " + total + "\tresultA: " + resultA + "\tresultB: " + resultB;
