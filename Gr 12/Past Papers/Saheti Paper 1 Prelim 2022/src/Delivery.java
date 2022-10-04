@@ -76,7 +76,7 @@ public class Delivery {
 
   @Override
   public String toString() {
-    return "(" + deliveryID + ") " + deliveryDate.toString() + " at " + latiude + "," + longitude + " in a " + getDangerLevel() + " - " + isDelivered;
+    return "(" + deliveryID + ") " + deliveryDate.toString() + " at " + latiude + "," + longitude + " in a " + dangerLevel + " - " + isDelivered;
   }
   
 }
