@@ -1,5 +1,6 @@
 
 import java.io.File;
+import java.io.FileNotFoundException;
 import java.util.Scanner;
 
 public class ManagePrisoner {
@@ -19,7 +20,7 @@ public class ManagePrisoner {
         convict[size] = prisoner;
         size++;
       }
-    } catch (Exception e) {
+    } catch (FileNotFoundException e) {
       System.out.println(e);
     }
   }
